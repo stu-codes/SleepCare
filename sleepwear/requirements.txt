@@ -1,0 +1,13 @@
+# Core
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+xgboost>=2.0
+streamlit>=1.30
+plotly>=5.18
+
+# Optional. The app degrades gracefully without either.
+# statsmodels gives proper exponential smoothing for the forecast tab.
+statsmodels>=0.14
+# prophet is withheld automatically until ~180 nights of history exist.
+# prophet>=1.1
